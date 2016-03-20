@@ -1,0 +1,26 @@
+{
+    "name":         "guigzz/silex-wsse",
+    "license":      "MIT",
+    "type":         "library",
+    "description":  "Full WSSE authentication for silex projects based on Symfony2 documentation",
+    "homepage":     "https://github.com/guigzz/silex-wsse",
+    "keywords":     ["wsse", "authentication", "auth", "silex", "webservice", "api", "stateless"],
+    "authors": [
+        {
+            "name": "Guillaume Sallaber",
+            "email": "guillaume.sallaber@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/security": "~2.2",
+        "symfony/http-foundation": "~2.2",
+        "symfony/http-kernel": "~2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guigzz\\SilexWsse\\": "src"
+        }
+    }
+}
